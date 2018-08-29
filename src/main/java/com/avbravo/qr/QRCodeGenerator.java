@@ -19,7 +19,8 @@ import java.nio.file.Path;
  * @author avbravo
  */
 public class QRCodeGenerator {
-    private static final String QR_CODE_IMAGE_PATH = "./MyQRCode.png";
+//    private static final String QR_CODE_IMAGE_PATH = "./MyQRCode.png";
+    private static final String QR_CODE_IMAGE_PATH = "/home/avbravo/Descargas/a.png";
 
     private static void generateQRCodeImage(String text, int width, int height, String filePath)
             throws WriterException, IOException {
