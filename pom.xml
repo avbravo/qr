@@ -11,7 +11,12 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <dependencies>
-    <dependency>
+         <dependency>
+            <groupId>com.github.avbravo</groupId>
+            <artifactId>avbravoutils</artifactId>
+            <version>0.27.1</version>
+        </dependency>
+<!--    <dependency>
         <groupId>com.google.zxing</groupId>
         <artifactId>core</artifactId>
         <version>3.3.0</version>
@@ -20,6 +25,20 @@
         <groupId>com.google.zxing</groupId>
         <artifactId>javase</artifactId>
         <version>3.3.0</version>
-    </dependency>
+    </dependency>-->
 </dependencies>	
+<repositories>
+        <repository>
+            <url>http://repository.primefaces.org/</url>
+            <id>PrimeFaces-maven-lib</id>
+            <layout>default</layout>
+            <name>Repository for library PrimeFaces-maven-lib</name>
+        </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+  
+    </repositories>
 </project>
